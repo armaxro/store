@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
     <title>Shopping cart</title>
 </head>
 <body>
@@ -16,7 +17,14 @@
         </nav>
     </header>
     <main>
-
+            <p id="empty-cart" class="hidden">The cart is empty!  <a href="./index.html">Choose some products</a></p>
+            <section id="cart-container"></section>
+            <section id="total"class="hidden">
+            <p>Total items: <span id="amount">0</span></p>
+            <p>Total price: $<span id="price">0</span></p>
+            <button disabled>Buy</button>
+            <button id="reset">Reset</button>
+            </section>
     </main>
     <footer>
         <div>
@@ -30,6 +38,7 @@
         </div>
     </footer>
     <script src="js/products.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="js/cartService.js"></script> <!-- Loaded once -->
+    <script src="js/cart.js"></script>
 </body>
 </html>

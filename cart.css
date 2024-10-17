@@ -1,0 +1,30 @@
+#cart-container{
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.527);
+}
+.card-product{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+.card-product img{
+    height: 100%;
+}
+.card-product h3{
+    width: 130px;
+}
+.card-product div{
+    background-color: var(--color-accent-light);
+    padding: 3px;
+    border-radius: 5px;
+}
+#total{
+    text-align: center;
+}
+#empty-cart{
+    text-align: center;
+}

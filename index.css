@@ -7,6 +7,9 @@
     padding-bottom: 50px;
 }
 .card-product{
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.527);
     max-width: 200px;
     text-align: center;
     background-color: var(--color-accent);
@@ -20,5 +23,5 @@
 }
 .card-product img{
     width: 100%;
-    aspect-ratio: 1.5;
+    aspect-ratio: 1.2;
 }

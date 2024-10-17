@@ -1,0 +1,24 @@
+#products-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.card-product{
+    max-width: 200px;
+    text-align: center;
+    background-color: var(--color-accent);
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.228);
+    transition: 200ms;
+}
+.card-product:hover{
+    translate: 0 -10px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.228);
+}
+.card-product img{
+    width: 100%;
+    aspect-ratio: 1.5;
+}

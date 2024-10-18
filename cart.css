@@ -13,6 +13,8 @@
 }
 .card-product img{
     height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.418);
 }
 .card-product h3{
     width: 130px;
@@ -24,6 +26,7 @@
 }
 #total{
     text-align: center;
+    margin: 20px ;
 }
 #empty-cart{
     margin-top: 50px;

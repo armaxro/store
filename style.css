@@ -18,12 +18,18 @@ body{
 header{
     background-color: var(--color-accent-light);
 }
+h1{
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 35px;
+    color: var(--color-accent);
+}
 h3, p{
     margin: 6px 0;
 }
 a{
     text-decoration: none;
-    color: var(--color-text);
 }
 a:hover:not(#cart){
     color: var(--color-accent)
